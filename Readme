@@ -1,0 +1,11 @@
+Author: Kester Nkese
+
+This is a simple Pygame program that creates a bouncing ball inside a hexagonal boundary.
+The ball reflects off the walls of the hexagon,and when it reaches a certain speed,
+it splits into three smaller balls with different colors.
+
+The code initializes a Pygame window and sets constants for sizes and colors.
+A Ball class manages ball properties and movement.
+The main loop handles events, moves and draws balls, checks for ball splitting upon hexagon wall collision, and updates the display.
+A hexagon is drawn with calculated vertices, frame rate is controlled, and the screen is cleared.
+The code simulates bouncing balls in a hexagonal boundary, with splitting when reaching a certain speed.
